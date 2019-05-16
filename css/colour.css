@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Colour */
+h1 {
+    color: indigo;
+}
+
+h2 {
+    color: purple;
+}
+
+li {
+    width: 65%;
+    color: teal;
+    font-size: 20px;
+}
