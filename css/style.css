@@ -22,6 +22,10 @@ body {
     padding-right: 10%;
 }
 
+.my-cart button {
+    border: none;
+}
+
 .product-section {
     max-width: 70%;
     margin-top: 2.5%;
@@ -104,4 +108,39 @@ body {
 .add-to-cart:hover {
     color: #ffffff;
     background-color: #222222;
+}
+
+.minicart {
+    width: 20%;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    overflow: auto;
+    z-index: 1;
+    margin-left: 65%;
+    border: 1px solid #cccccc;
+    padding-top: 1%;
+}
+
+.item {
+    padding-bottom: 15%;
+}
+
+.item-des {
+    font-size: 75%;
+}
+
+.item-img {
+    height: 100px;
+}
+
+.show {
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .minicart {
+        width: 80%;
+        margin-left: 0%;
+    }
 }
